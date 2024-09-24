@@ -1,0 +1,322 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<title>BenefishersSolutions</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+   
+<style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+           padding:0px 10px 0px; 
+           background-color: skyblue;
+           margin: 0;
+           padding: 0;
+           height: 150vh;
+           line-height: 1.2;
+        }
+ .navbar {
+            background-color: blue;
+            overflow: hidden;
+            height:60px;
+        }
+    
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: pink;
+            text-size:30px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+      .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+           }
+ a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+button{
+color:red; 
+border-radius:10px;
+width:320px;
+font-size:15px;
+}
+  .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text {font-size: 11px}
+}      
+       
+h1 { color:pink;
+     padding: 0px 20px 0px;
+}
+ .para{
+      color:orange;
+       font-size:20px;
+       padding: 0px 20px 0px;      
+        }
+
+        
+        
+ .circle {
+    width:1000px;
+     margin-bottom: 100px;
+    float: left;
+    height: 350px;
+     padding: 0px 20px 10px;
+    color:orange;
+    border: 5px solid green;
+    color:orange;
+     font-size:18px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom:0px;
+     z-index: 1;
+    width: 100%;
+}
+.footer a{
+   text-decoration: none;
+   }
+ 
+</style>
+
+   
+  <title>home</title>      
+</head>
+
+<body>
+    <div class="navbar">
+        <b><a href="home.html">Home</a></b>
+        <b><a href="about.HTML">About Us</a></b>
+        <b><a href="contacts.html">Contact</a></b>
+        <b><a href="activities.html">Activities/Events</a></b>
+         <b><a href="news.html">News</a></b>
+         <img src="NEWLOGO.PNG" alt="LOGO" style="width:198px;height:95px; float:right;">
+        
+    </div>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="numbertext">1 / 6</div>
+  <img src="get.jpg" style="width:100%; border-radius:10px">
+ <div class="text">Caption one</div>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="MILA.JPG" style="width:100%; border-radius:10px">
+ <div class="text">Caption one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="fct.jpg" style="width:100%; border-radius:10px">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="myofficialpix.PNG" style="width:100%; border-radius:10px">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="isty.jpg" style="width:100%; border-radius:10px">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6/ 6</div>
+  <img src="OKAT.jpg" style="width:100%; border-radius:10px">
+  <div class="text">Caption five</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+   <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length} ;
+  for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].classList.remove("active");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].classList.add("active");
+ }
+timeout = setInterval(() => {
+    plusSlides(1)
+}, 5000);
+</script>
+ <marquee><button type="button"
+onclick="document.getElementById('demo').innerHTML = 'BenefishersSolutions'">
+Click me to display my Company's name...</button></marquee>
+<p id="demo"  style ='color:blue; font-size:30px; text-align:center;'></b>
+    
+    <b><h1> OUR STATEMENT</h1></b>
+    <p class = "para"> At </b>BenefishersSolutions</b>, we are at the forefront of empowering businesses and individuals
+ through a comprehensive suite of services. <br>
+Our company seamlessly combines expertise in government registration with Corporate Affairs Commission (CAC),website development, and coding education to provide holistic solutions for a dynamic digital landscape.</p>
+   <div class ="circle">
+     <b><h1> OUR MISSION</h1></b>
+      <p>At <b>BenefishersSolutions</b>, our mission is to empower businesses and individuals by
+ providing innovative, reliable, and accessible solutions in the realms of government registration, web development, 
+and coding education. We believe in the transformativepower of 
+technology to drive success and create a positive impact in the digital landscape.</p>
+
+<b><h1>VISION STATEMENT:</h1></b>
+<p>To be the leading provider of comprehensive digital solutions, driving innovation and success for businesses and 
+individuals in Nigeria and beyond. 
+We aim to foster a community where technology is accessible, skills are enhanced, and businesses thrive.</p>   
+</div>
+<footer class="footer">
+        <p>&copy; 2023 BenefishersSolutions.  All rights reserved.
+        Phone: <a href="tel:08113443832">+234-803443832, +234-8113443832</a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email:<a href = "#">    bashaq1234@gmail.com</a></p>
+    </footer>
+</body>
+</html>
+</body>
+</html>

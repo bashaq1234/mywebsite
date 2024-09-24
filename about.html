@@ -1,0 +1,312 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<title>BenefishersSolutions</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+   
+<style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+           padding:0px 10px 0px; 
+           background-color: skyblue;
+           padding: 0px;
+           height: 150vh;
+           line-height: 1.2;
+        }
+ .navbar {
+            background-color: blue;
+            overflow: hidden;
+            height:60px;
+        }
+    
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: pink;
+            text-size:30px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+      .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+           }
+ a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text {font-size: 11px}
+}
+#pool{
+padding: 0px 10px 100px;
+}
+.core{
+padding : 10px;}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer a{
+   text-decoration: none;
+   border-radius:10px;
+   }
+ 
+
+</style>
+<title>about</title>
+</head>
+<body>
+<div class="navbar">
+        <b><a href="home.html">Home</a></b>
+        <b><a href="slided1.HTML">About Us</a></b>
+        <b><a href="contacts.html">Contact</a></b>
+        <b><a href="activities.html">Activities/Events</a></b>
+         <b><a href="news.html">News</a></b>
+        <img src="NEWLOGO.PNG" alt="LOGO" style="width:198px;height:95px; float:right;">
+    </div>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="com.PNG" style="width:100%">
+  <div class="text">Caption one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="go.JPG" style="width:100%">
+  <div class="text">Caption one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="REAL.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="OKAT.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="compu.jpg" style="width:100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6/ 6</div>
+  <img src="MEN.jpg" style="width:100%">
+  <div class="text">Caption five</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+   <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length} ;
+  for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].classList.remove("active");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].classList.add("active");
+}
+timeout = setInterval(() => {
+    plusSlides(1)
+}, 5000);
+</script>
+<b><h1 style="color:blue;"><center> ABOUT US</center></h1></b>
+ <div class = "core">
+  <h3>Our core services:</h3>
+  <p><b>Government registration services:</b> We specialize in facilitating the registration
+        process for businesses, ensuring a smooth and efficient experience.From entity
+        selection to compliance documentation, our team of experts navigates the
+        bureaucratic landscape, allowing you to focus on what matters most, building, and
+        growing your business.<br>
+     <b>Website Development :</b> Elevate your online presence with our bespoke website
+        development services. Our talented team of developers crafts visually stunning and
+        functionally robust websites tailored to meet your business objectives. Whether
+        you need an e-commerce platform, corporate site, or a dynamic web application,
+        we have the expertise to bring your vision to life.<br>
+     <b>Coding Training for Students:</b> At Benefishers Solutions, we are passionate about
+        nurturing the next generation of tech leaders. Our coding training programs
+        provide students with hands-on experience in programming languages, software 
+        development methodologies, and industry best practices. We believe in equipping
+        students with the skills needed to excel in the ever-evolving field of technology.
+  </p>
+</div>
+<div id ="pool">
+    <h4>Why choose BenefishersSolutions?</h4>
+  <ul >
+     <li><b>Comprehensive Solutions:</b> From business registration to web development and
+           education, we offer end-to-end solutions for your digital needs.
+     </li>
+     <li><b>Experienced Professionals:</b> Our team comprises seasoned professionals with
+           diverse skill sets, ensuring excellence in every service we provide.
+     </li>
+     <li><b>Innovation and Creativity:</b> Stay ahead of the curve with our innovative solutions
+            and creative approaches to problem-solving.
+     </li>
+     <li><b>Commitment to Education:</b> We are dedicated to fostering a learning environment that empowers the tech leaders of tomorrow.
+     </li>  
+   </ul>
+   </div>
+<footer class="footer">
+        <p>&copy; 2023 BenefishersSolutions.  All rights reserved.
+        Phone: <a href="tel:08113443832">+234-803443832, +234-8113443832</a><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp Email:<a href = "#">    &nbsp&nbspbashaq1234@gmail.com</a></p>
+    </footer>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:03:55 GMT -->
+</html> 
